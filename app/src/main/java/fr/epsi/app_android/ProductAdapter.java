@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -69,7 +70,7 @@ public class ProductAdapter extends RecyclerView.Adapter<fr.epsi.app_android.Pro
             textViewName = view.findViewById(R.id.productName);
             textViewDescription = view.findViewById(R.id.productDescription);
             imageViewProductImage = view.findViewById(R.id.productImage);
-            layoutCell = view.findViewById(R.id.productImage);
+            layoutCell = view.findViewById(R.id.categoryItem);
         }
 
         public TextView getTextViewName() {
